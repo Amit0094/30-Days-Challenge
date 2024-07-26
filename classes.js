@@ -142,6 +142,7 @@ class Account {
         this.#balance += balance
     }
 
+    
     withDraw(balance){
         if(balance < 0){
             throw new Error('WithDraw balance should be grater than zero.')
